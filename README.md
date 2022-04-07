@@ -1,4 +1,4 @@
-# Modules PLugin bug
+# Modules Plugin bug
 
 Demonstrates bug in [Gradle Modules Plugin](https://github.com/java9-modularity/gradle-modules-plugin) v1.8.10.
 
