@@ -1,5 +1,4 @@
-// ChangeMe: to match the module, i.e. `creek.<repo-name>.<module-name>`:
-// Also search for references to `reek.template.module.single` and replace accordingly.
-module creek.template.module.single {
-    exports org.creek.api.example;
+module classgraph.bug {
+    // Without this file the bug is not encountered.
+    requires io.github.classgraph;
 }
