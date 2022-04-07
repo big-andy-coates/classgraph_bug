@@ -3,7 +3,6 @@ plugins {
     id("org.javamodularity.moduleplugin") version "1.8.10"  // https://plugins.gradle.org/plugin/org.javamodularity.moduleplugin
 }
 
-
 group = "io.github.big.andy.coates"
 
 java {
@@ -18,7 +17,6 @@ repositories {
 }
 
 dependencies {
-    implementation("io.github.classgraph:classgraph:4.8.143")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.8.2")
 }
