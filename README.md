@@ -2,7 +2,9 @@
 
 Demonstrates bug in [Class Graph](https://github.com/classgraph/classgraph) v4.8.143.
 
-The bug is only encountered when testing a Java Module, i.e. a module with a [module-info.java](src/main/java/module-info.java) file.
+The bug is only encountered when testing a Java Module, i.e. 
+a module with a [module-info.java](src/main/java/module-info.java) file & when running from the module path. The latter
+is achieved via the `org.javamodularity.moduleplugin` Gradle plugin.
 
 ## To recreate the bug:
 

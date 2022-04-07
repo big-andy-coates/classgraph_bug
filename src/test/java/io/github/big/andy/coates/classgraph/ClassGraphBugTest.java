@@ -8,6 +8,8 @@ class ClassGraphBugTest {
 
     @Test
     void shouldNotThrow() {
-        new ClassGraph().scan();
+        new ClassGraph()
+                .verbose()
+                .scan();
     }
 }
